@@ -3,14 +3,8 @@
   "public": true,
   "builds": [
     {
-      "src": "MatrixRain/index.html",
+      "src": "index.html",
       "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "MatrixRain/$1"
     }
   ]
 }
